@@ -19,6 +19,10 @@ public class Task2 {
 		driver.findElement(By.xpath("//p[text()='Vista Valencia Villa']/../..//img[@alt='arrow']")).click();
 		
 		
+		ChromeDriver driver1 = new ChromeDriver();
+		
+		
+		
 	}
 
 }
