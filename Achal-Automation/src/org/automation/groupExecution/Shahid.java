@@ -1,0 +1,20 @@
+package org.automation.groupExecution;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class Shahid {
+
+	@Test(groups ="Bollywood" )
+	public void Launching_Shahid() {
+	WebDriver driver = new ChromeDriver();
+	driver.manage().window().maximize();
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+	driver.get("https://en.wikipedia.org/wiki/Shahid_Kapoor");
+	
+	}
+
+}
