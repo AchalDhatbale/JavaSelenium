@@ -11,7 +11,7 @@ import org.testng.asserts.SoftAssert;
 @Listeners(org.genericlib.MyListener.class)
 public class TC_AddToCart_001_Test extends BaseTest{
 	
-	@Test
+	@Test 
 	public void add_To_Cart_method()
 	{
 		BasePage bp = new BasePage(driver);
